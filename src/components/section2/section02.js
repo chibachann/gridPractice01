@@ -1,0 +1,19 @@
+import * as React from 'react';
+import * as styles from './section02.module.css';
+
+const Section02 = () => {
+  return (
+    <div className={styles.container}>
+        <h1 className={styles.title}>Section 02</h1>
+        <div className={styles.grid}>
+            <div className={`${styles.box} ${styles.box1}`}>Box 1</div>
+            <div className={`${styles.box} ${styles.box2}`}>Box 2</div>
+            <div className={`${styles.box} ${styles.box3}`}>Box 3</div>
+            <div className={`${styles.box} ${styles.box4}`}>Box 4</div>
+            <div className={`${styles.box} ${styles.box5}`}>Box 5</div>
+        </div>
+    </div>
+  );
+};
+
+export default Section02;
